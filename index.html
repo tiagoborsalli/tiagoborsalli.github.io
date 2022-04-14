@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Challenge</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit" type="text/css">
+    <style>
+        body {
+            background-color: hsl(212, 45%, 89%);     
+            font-family: "Outfit";   
+        }
+    
+        
+        #qr_code_div {
+            width: 280px;
+            height: 400px;
+            background-color: white;
+            text-align: center;
+            border-radius: 15px;
+            padding-top: 15px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #qr_code {
+            border-radius: 12px;
+        }
+
+        h1 { 
+            font-size:20px;
+            text-align: center;  
+            font-weight: bold;
+            padding: 2px 20px;
+        }
+        p {
+            text-align: center;
+            font-size: 13px;
+            color:gray;
+            padding: 2px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="qr_code_div">
+       <img src="./images/image-qr-code.png" id="qr_code" width="250px">
+       <h1>Improve your front-end skills by building projects</h1>
+       <p>Scan the QR code to visit Fronted Mentor and take your coding skills to the next level</p>
+    </div>
+</body>
+</html>
